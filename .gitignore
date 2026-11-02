@@ -7,9 +7,9 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-# node_modules porque pesa mucho y haría muy lento el repositorio
-# dist se excluye para evitar conflictos en git
-# dist-ssr lo mismo que dist
+node_modules 
+dist
+dist-ssr 
 *.local
 
 # Editor directories and files

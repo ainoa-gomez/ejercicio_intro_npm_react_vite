@@ -10,8 +10,8 @@ function App() {
 
   return (
     <>
-      <PlanetScene/>
-      
+      <PlanetScene />
+
       <section id="center">
         <div className="hero">
           <img src={heroImg} className="base" width="170" height="179" alt="" />
